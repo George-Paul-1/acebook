@@ -1,3 +1,5 @@
+A basic facebook clone project, developed as part of a team
+
 ### Structure
 
 This repo contains two applications:
@@ -7,12 +9,6 @@ This repo contains two applications:
 
 These two applications will communicate through HTTP requests, and need to be
 run separately.
-
-### Documentation
-
-[More documentation of the codebase and its architecture can be found here.](./DOCUMENTATION.md)
-It's recommended you all read the suggested docs _after making sure the whole
-setup below worked.
 
 ### Quickstart
 
@@ -59,8 +55,6 @@ If you haven't already, make sure you have node and NVM installed.
 
 ### Setting up environment variables.
 
-We need to create two `.env` files, one in the frontend and one in the api.
-
 #### Frontend
 
 Create a file `frontend/.env` with the following contents:
@@ -77,9 +71,6 @@ Create a file `api/.env` with the following contents:
 MONGODB_URL="mongodb://0.0.0.0/acebook"
 NODE_ENV="development"
 JWT_SECRET="secret"
-```
-
-For an explanation of these environment variables, see the documentation.
 
 ### How to run the server and use the app
 
